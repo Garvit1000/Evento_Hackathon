@@ -1,0 +1,151 @@
+.event-page {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .filters button:hover {
+    background-color: #303f9f;
+  }
+  
+  .event-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .event-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .event-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-info {
+    margin-bottom: 20px;
+  }
+  
+  .event-info h3 {
+    margin-bottom: 10px;
+  }
+  
+  .event-prize {
+    font-size: 1.2em;
+    color: #f50057;
+    margin-bottom: 10px;
+  }
+  
+  .event-tags span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .event-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .event-actions .register-button {
+    background-color: #3f51b5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .event-actions .register-button:hover {
+    background-color: #303f9f;
+  }
+  
+  .event-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event-details p {
+    margin: 5px 0;
+  }
+  .team-registration {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    margin-top: 10px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .team-registration input {
+    width: calc(100% - 20px);
+    margin: 5px 10px 10px 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .team-registration button {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .team-registration button:hover {
+    background-color: #218838;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .page-button.active {
+    background-color:  #303f9f;
+    color: #fff;
+  }
+  
+  .page-button:hover:not(.active) {
+    background-color: #ddd;
+  }
+  

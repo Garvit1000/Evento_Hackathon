@@ -1,0 +1,135 @@
+.community-forum {
+  max-width: 800px;
+  margin: 75px auto 0;
+  padding: 80px 20px 20px;
+}
+
+.new-post,
+.new-comment {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3f51b5;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+}
+
+.posts .post {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-info,
+.comment-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-author,
+.comment-author {
+  font-weight: bold;
+}
+
+.post-content,
+.comment-content {
+  margin-bottom: 10px;
+}
+
+.post-comments .comment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.comment .profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-content {
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color: #e53935;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.btn-primary {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  transition: 0.25s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #303f9f;
+}
+
+.upvote-button {
+  background-color: #3f51b5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upvote-button:hover {
+  background-color: #303f9f;
+}
+
+.upvote-count {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}

@@ -1,0 +1,53 @@
+.dashboard-page {
+    font-family: 'Outfit', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+  
+  .chart-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 40px;
+  }
+  
+  .event-lists {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .event-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .event-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .event-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-list li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .event-list button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

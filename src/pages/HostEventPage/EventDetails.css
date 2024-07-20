@@ -1,0 +1,75 @@
+.event-details-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  padding-top: 100px;
+}
+
+.event-details-page h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.event-details-page p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.event-details-page .event-details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.event-details-page .event-details-info p {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.event-details-page .event-details-info p span {
+  font-weight: bold;
+}
+
+.event-details-page .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.event-details-page .tags span {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.event-details-page button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.event-details-page button:hover {
+  background-color: #ff3333;
+}

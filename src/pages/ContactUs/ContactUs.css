@@ -1,0 +1,111 @@
+.contact-us-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f5f7fa;
+  padding-top: 100px;
+}
+
+.contact-info {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.support-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support-info div {
+  width: 30%;
+}
+
+.contact-form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-card {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-us-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-us-card p {
+  margin-bottom: 20px;
+  color: #777;
+}
+
+.contact-us-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contact-us-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  color: #28a745;
+}
